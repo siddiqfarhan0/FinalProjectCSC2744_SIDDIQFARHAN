@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="crud.css" />
+
+    <!--Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+    <div class="loginbox">
+      <h1>Movies<span class="kaler">Planner</span></h1>
+      <form>
+        <!--Create Textbox-->
+        <div class="textbox">
+          <label>File name</label>
+          <br>
+          <input id="fileName" type="text" class="formcontrol">
+        </div>
+        <br>
+        <div class="textbox">
+          <label>Content</label>
+          <br>
+          <textarea id="fileContents" class="formcontrol" rows="5"></textarea>
+        </div>
+        <br><br>
+
+      </form>
+      <!--Button Crud-->
+      <button id="btnCreate" class="btn">Create</button>
+      <button id="btnRead" class="btn">Read</button>
+      <button id="btnUpdate" class="btn">Update</button>
+      <button id="btnDelete" class="btn">Delete</button>    
+    </div>
+    <br>
+
+    <div>
+      <!--Back to Homepage Button-->
+      <a href="index.html"><button class="btnback">Back to Homepage</button></a>
+    </div> 
+
+    <!--Link with JS-->
+    <script src="crud.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: auto;
+    max-width: 38rem;
+    padding: 0;
+    background-image: url('https://fandomwire.com/wp-content/uploads/2018/08/Movies-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .mainWrapper{
+    margin: 25px;
+  }
+  
+  h1 {
+    color: rgb(238, 234, 242);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  .kaler {
+    color: rgb(253, 2, 52);
+  }
+  
+  .loginbox {
+    padding-top: 70px;
+  }
+  
+  label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(231, 240, 237);
+  }
+  
+  input {
+    padding: 20px 20px;
+    border: solid rgb(228, 13, 31);
+    border-radius: 20px 20px;
+    font-family: 'Poppins', cursive;
+    background-color: whitesmoke;
+  }
+  
+  textarea {
+    padding: 20px 20px;
+    border: solid rgb(237, 19, 33);
+    border-radius: 20px 20px;
+    font-family: 'Poppins', cursive;
+    background-color: whitesmoke; 
+    width: 50%;
+  }
+  
+  .btn {
+    cursor: pointer;
+    border: solid rgb(238, 11, 18);
+    border-radius: 10px 10px;
+    width: 20%;
+    height: 6vh;
+    background-color: rgb(231, 16, 224);
+    font-family: 'Poppins', cursive;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .btn:hover {
+    border: solid rgb(227, 22, 29);
+    background-color: whitesmoke;
+    color: darkcyan;
+  }
+  
+  .btnback {
+    cursor: pointer;
+    border: solid rgb(255, 0, 4);
+    border-radius: 10px 10px;
+    width: 30%;
+    height: 6vh;
+    background-color: rgb(237, 13, 218);
+    font-family: 'Poppins', cursive;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .btnback:hover {
+    border: solid rgb(255, 0, 0);
+    background-color: whitesmoke;
+    color: darkcyan;
+  }
